@@ -1,4 +1,17 @@
 {% extends "layout.html" %}
 {% block content %}
     <h1>About Page</h1>
+    <article class="media content-section">
+        <div class="media-body">
+          <div class="article-metadata">
+            <!--   <a class="mr-2" >Shakthi Prarthana V</a>-->
+            <h2 class="article-title">Projects Blog</h2>
+          <p class="article-content">This is a website where you can share amazing ideas
+               and informative posts with our computer science community.Register an account and share in this page to get featured.
+          </p>
+          <img class="rounded-circle article-img" src="{{ url_for('static', filename='profile_pics/f5e0511d3cf996f0.jpg') }}">
+          <a class="mr-2" >Designed and developed by</a>
+          <h2 class="article-title">Shakthi Prathana V</h2>
+        </div>
+      </article>
 {% endblock content %}
